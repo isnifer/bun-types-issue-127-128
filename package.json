@@ -1,0 +1,8 @@
+{
+  "name": "bun-types-issue-127-128",
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

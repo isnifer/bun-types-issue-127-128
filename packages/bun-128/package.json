@@ -1,0 +1,17 @@
+{
+  "name": "bun-128",
+  "private": true,
+  "version": "1.2.8",
+  "type": "module",
+  "scripts": {
+    "build": "bunx --bun tsc && bunx --bun vite build"
+  },
+  "devDependencies": {
+    "@types/bun": "1.2.8",
+    "typescript": "5.7.2",
+    "vite": "6.2.0"
+  },
+  "dependencies": {
+    "shared": "workspace:*"
+  }
+}
