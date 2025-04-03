@@ -1,8 +1,9 @@
 import { envIssue, errorWithCause, numberFormatIssue } from "shared";
 
 function testIssues() {
-  const envIssueResult = envIssue(import.meta.env.VITE_SOME_ENV_VAR);
-  console.log(envIssueResult);
+  // Can't reproduce yet in 1.2.7-1.2.8 in this repo
+  // const envIssueResult = envIssue(import.meta.env.VITE_SOME_ENV_VAR);
+  // console.log(envIssueResult);
 
   try {
     const errorWithCauseResult = errorWithCause();
